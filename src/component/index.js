@@ -11,3 +11,4 @@ export {default as RadioContainer} from './Reuseable/RadioContainer';
 export {default as Guest} from './Reuseable/Guest';
 export {default as MapLocation} from './Reuseable/MapLocation';
 export {default as HomeModule} from './Module/HomeModule';
+export {default as FeatureStore} from './Reuseable/FeatureStore';

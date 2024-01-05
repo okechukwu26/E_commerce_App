@@ -14,7 +14,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {useFocusEffect} from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {HeightSpacer, HomeModule} from '../component';
+import {FeatureStore, HeightSpacer, HomeModule} from '../component';
 
 const Home = ({navigation}) => {
   const [location, setLocation] = useState('');
@@ -51,6 +51,7 @@ const Home = ({navigation}) => {
             <Ionicons size={20} color={COLORS.dark} name="notifications" />
           </View>
         </View>
+        <HeightSpacer height={20} />
         <HomeModule />
         <HeightSpacer height={20} />
 
@@ -77,6 +78,9 @@ const Home = ({navigation}) => {
             <Text style={styles.text(COLORS.green, 13, 'bold')}>View all</Text>
           </TouchableOpacity>
         </View>
+        <HeightSpacer height={20} />
+        <FeatureStore location={location} />
+        <HeightSpacer height={100} />
       </ScrollView>
     </SafeAreaView>
   );

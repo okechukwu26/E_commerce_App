@@ -28,6 +28,7 @@ const ModalMap = ({visible, onClose}) => {
   });
   const [place, setPlace] = useState('');
   const [loading, setLoading] = useState(false);
+  Geocoder.init('AIzaSyB1u4N1oefmnN5kL5ee6rlZZ67EV4VflMI');
 
   useFocusEffect(
     useCallback(() => {

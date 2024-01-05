@@ -32,6 +32,7 @@ const Location = ({navigation}) => {
 
   const [showMap, setShowMap] = useState(false);
 
+  Geocoder.init('AIzaSyB1u4N1oefmnN5kL5ee6rlZZ67EV4VflMI');
   useEffect(() => {}, [loading]);
   useFocusEffect(
     useCallback(() => {

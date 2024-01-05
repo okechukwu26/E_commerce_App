@@ -140,9 +140,10 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.white,
     padding: 18,
     position: 'absolute',
-    top: -58,
+    top: -50,
     borderRadius: 35,
     borderColor: COLORS.lightWhite,
     borderWidth: 5,
+    zIndex: 100,
   },
 });

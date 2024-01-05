@@ -63,6 +63,13 @@ const styles = StyleSheet.create({
     margin: 5,
     borderRadius: 12,
     elevation: 3,
+    shadowColor: 'black', // For iOS shadow
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
   },
   image: {
     width: 70,
@@ -79,6 +86,5 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: 'bold',
     textAlign: 'center',
- 
   },
 });

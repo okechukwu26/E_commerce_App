@@ -1,5 +1,5 @@
 export {default as WidthSpacer} from './Reuseable/WidthSpacer';
-
+export {default as ModalMap} from './ModalMap';
 export {default as ReuseableInput} from './Reuseable/ReuseableInput';
 export {default as ReuseableButton} from './Reuseable/ReuseableButton';
 export {default as Divider} from './Reuseable/Divider';
@@ -8,3 +8,6 @@ export {default as RadioButton} from './Reuseable/RadioButton';
 export {default as Hero} from './Reuseable/Hero';
 export {default as PhoneInput} from './Reuseable/PhoneInput';
 export {default as RadioContainer} from './Reuseable/RadioContainer';
+export {default as Guest} from './Reuseable/Guest';
+export {default as MapLocation} from './Reuseable/MapLocation';
+export {default as HomeModule} from './Module/HomeModule';

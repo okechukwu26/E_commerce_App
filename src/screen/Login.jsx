@@ -17,10 +17,11 @@ import {
   PhoneInput,
   ReuseableInput,
   RadioContainer,
+  Guest,
 } from '../component';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import Entypo from 'react-native-vector-icons/Entypo';
-import EvilIcons from 'react-native-vector-icons/EvilIcons';
+
 import styles from './login.style';
 import {COLORS, TEXT} from '../constant/theme';
 import {useNavigation} from '@react-navigation/native';
@@ -85,6 +86,8 @@ const Login = () => {
             size={TEXT.medium}
           />
         </View>
+        <HeightSpacer height={50} />
+        <Guest />
       </View>
     </SafeAreaView>
   );

@@ -9,6 +9,7 @@ import {
 import React from 'react';
 import {
   Divider,
+  Guest,
   HeightSpacer,
   Hero,
   PhoneInput,
@@ -97,6 +98,8 @@ const Register = ({navigation}) => {
             size={TEXT.medium}
           />
         </View>
+        <HeightSpacer height={20} />
+        <Guest />
         <HeightSpacer height={50} />
       </ScrollView>
     </SafeAreaView>
